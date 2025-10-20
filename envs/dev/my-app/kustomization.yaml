@@ -1,0 +1,10 @@
+---
+namespace: my-app
+replicas:
+- name: my-app
+  count: 2
+images:
+- name: 973605817967.dkr.ecr.ap-south-1.amazonaws.com/chinmaya10000/go-app
+  newTag: v0.1.2
+resources:
+- ../../../base
